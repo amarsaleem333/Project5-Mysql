@@ -1,4 +1,4 @@
-# Client-Server Architecture with MySQL (Project 102)
+# Client-Server Architecture with MySQL (Project 5)
 
 A robust, enterprise-grade deployment demonstrating a fully functional decoupled two-tier architecture using native **Oracle MySQL 8.4 LTS** hosted on separate **AWS EC2 Linux Virtual Servers**. Communication is confined strictly to the internal AWS private network environment leveraging advanced Security Group scoping.
 
