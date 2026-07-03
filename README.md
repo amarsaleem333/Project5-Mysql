@@ -75,7 +75,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'remote_user'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
 
-![Server Configuration Screenshot](images/server_setup.png)
+![Server Configuration Screenshot]https://github.com/amarsaleem333/Project5-Mysql/blob/main/server_setup.png
 
 ---
 
@@ -89,7 +89,7 @@ Isolate exposure matrix rules down within your security groups stack pane:
    - **Port Range:** `3306`
    - **Source:** `Custom` ──> `<mysql_client_private_ip>/32` *(or the explicit Client Security Group ID)*
 
-![AWS Security Group Rules Screenshot](images/aws_security_group.png)
+![AWS Security Group Rules Screenshot]https://github.com/amarsaleem333/Project5-Mysql/blob/main/aws_security_group.png
 
 ---
 
@@ -113,9 +113,11 @@ mysql -h <server_private_ip> -u remote_user -p
 #### 3. Validate Engine Pipeline Matrix
 ```sql
 SHOW DATABASES;
+
+
 ```
 
-![Client Verification Output Screenshot](images/client_verification.png)
+![Client Verification Output Screenshot]https://github.com/amarsaleem333/Project5-Mysql/blob/main/client_verification.png
 
 ---
 
@@ -131,4 +133,4 @@ SHOW DATABASES;
 
 ---
 **Author:** Amar Saleem  
-*Systems & Infrastructure Operations Analyst*
+*Systems & Infrastructure Operations Analyst and future DevOps/Cloud Engineering *
