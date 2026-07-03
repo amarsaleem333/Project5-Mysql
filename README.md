@@ -51,7 +51,7 @@ Run the automated initialization wizard:
 ```bash
 sudo mysql_secure_installation
 ```
-*Provide your custom root password (`-----pasasas$`), terminate public anonymous profiles, and disable root remote execution pathways.*
+*Provide your custom root password (`------pasasas$`), terminate public anonymous profiles, and disable root remote execution pathways.*
 
 #### 3. Update Networking Scoping
 Modify configuration layout values to intercept incoming private adapter sockets:
